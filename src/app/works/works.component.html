@@ -1,0 +1,38 @@
+<div class="bg-dark-blue vh-100 d-flex align-items-center" id="works">
+  <div class="container">
+    <div class="mb-5">
+      <h2 class="font-white font-weight-bold">MY WORKS</h2>
+    </div>
+
+    <div class="row">
+      <div *ngFor="let work of works" class="col-md-3">
+        <a href="{{ work.url }}" target="_blank">
+          <img class="w-100 mb-3 animate-img" src="../../assets/images/{{ work.image }}" alt=""></a>
+        <div>
+          <p class="font-white text-center">{{ work.title }}</p>
+          <div class="font-white d-flex justify-content-center align-items-center">
+            <div *ngFor="let technology of work.technologies">
+              <i *ngIf="technology === 'git'" class="fab fa-gitlab git icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'html'" class="fab fa-html5 html icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'css'" class="fab fa-css3-alt css icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'bootstap'" class="fab fa-bootstrap bootstrap icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'js'" class="fab fa-js-square js icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'php'" class="fab fa-php php icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'laravel'" class="fab fa-laravel laravel icon-25 mx-2"></i>
+
+              <i *ngIf="technology === 'angular'" class="fab fa-angular angular icon-25 mx-2"></i> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <ul (*ngFor)="let url of worksUrl">
+  <li>{{ url }}}</li> -->
+<!-- </ul> -->

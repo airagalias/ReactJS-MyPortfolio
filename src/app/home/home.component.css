@@ -1,0 +1,17 @@
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../../assets/images/photo-1525342631975-cfc922fe0b05.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(156, 130, 130, 0.4)
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid #17bebb;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 12px 22px;
+  margin-bottom: 150px;
+}

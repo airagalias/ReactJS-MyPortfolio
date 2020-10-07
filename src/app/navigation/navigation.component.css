@@ -1,0 +1,33 @@
+nav {
+  height: 70px;
+  background-color: black;
+}
+
+a.d-flex,
+a.font-beige {
+  text-decoration: none;
+}
+
+.font-beige {
+  color: #DBC8BE;
+  letter-spacing: 2.5px;
+}
+
+.color-orange {
+  color: #ff4000;
+}
+
+.cv {
+  border: 1px solid #17bebb;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+
+}
+
+li a:hover {
+  transform: scale(1.2);
+  /* text-decoration: none; */
+  color: #17bebb;
+}

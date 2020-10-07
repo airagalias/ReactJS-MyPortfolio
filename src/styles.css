@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  font-family: 'Quicksand', sans-serif !important;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.content-title {
+  margin-top: 200px;
+}
+
+.active-link {
+  border-bottom: 1px solid #17bebb;
+}
+
+a {
+  cursor: pointer;
+}
+
+.border-style {
+  border: 1px solid #17bebb;
+  border-radius: 10px;
+}
+
+.border-style-solid {
+  border: 1px solid #17bebb;
+}
+
+.icon-35 {
+  font-size: 35px;
+}
+
+.icon-25 {
+  font-size: 25px;
+}
+
+.git {
+  color: #E84D31;
+}
+
+.html {
+  color: #E96228;
+}
+
+.css {
+  color: #2862E9;
+}
+
+.bootstrap {
+  color: #6C42A0;
+}
+
+.js {
+  color: #EDD718;
+}
+
+.php {
+  color: #7377AD;
+}
+
+.laravel {
+  color: #F72E21;
+}
+
+.angular {
+  color: #D6002F;
+}
+
+.animate-img:hover {
+  transform: scale(1.2);
+  border: 1px solid #17bebb;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.bg-dark-blue {
+  background-color: #1E2025;
+}
